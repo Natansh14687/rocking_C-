@@ -11,6 +11,7 @@ void swap(int i, int j, vector<int>& v){
     while(j>=i){
         if(v[i]==0) i++;
         else if(v[j] == 1) j--;
+        if(i>j) break;
         else if(v[i] == 1 && v[j] == 0){
             v[i] = 0;
             v[j] = 1;
