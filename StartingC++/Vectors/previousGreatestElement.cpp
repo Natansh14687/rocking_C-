@@ -5,12 +5,12 @@ int main(){
     vector<int> pge(12);
     pge[0] = -1;
     int max = v[0];
-    for(int i=1; i<v.size()-1; i++){
+    for(int i=1; i<v.size(); i++){
         pge[i] = max;
         if(max<v[i]) max = v[i];
     }
 
-    for(int i=0; i<v.size()-1; i++){
+    for(int i=0; i<v.size(); i++){
         cout << pge[i] << " ";
     }
     return 0;
