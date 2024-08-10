@@ -49,5 +49,6 @@ int main(){
     ll.display();
     ll.insertAtEnd(20);
     ll.display();
+    cout << ll.size;
     return 0;
 }
