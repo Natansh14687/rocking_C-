@@ -62,6 +62,7 @@ int main(){
     q.pop();
      cout << q.front() << "\n";
     cout << q.size() << "\n";
-    cout << q.empty();
+    cout << q.empty() << "\n";
+    q.display();
     return 0;
 }
